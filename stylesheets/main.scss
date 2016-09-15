@@ -1,0 +1,14 @@
+.slideshow{
+  height:300px;
+  img{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+}
+.slideshow-buttons{
+  button{
+    padding:15px 32px;
+  }
+}
