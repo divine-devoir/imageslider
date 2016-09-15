@@ -57,14 +57,7 @@ $(".js-next").on('click', function(){
       doSlides('prev');
     });
   //click to play set interval
-$(".js-play").on('click', function(){
-    play = setInterval(function(){
-           doSlides('next'); }, 2000);
-});
-    //pause button
 
-  $('.js-pause').on('click', function(){
-    clearInterval(play) })
 
 
 })

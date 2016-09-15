@@ -1,14 +1,29 @@
 .slideshow{
   height:300px;
+
+
   img{
     display:none;
     position:absolute;
-    top:0;
-    left:0;
+    top:50px;
+    left:44%;
+    border:5px solid black;
   }
 }
 .slideshow-buttons{
+
   button{
     padding:15px 32px;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 25px;
+    margin: 20px;
+
+
   }
+  button:hover{
+    opacity: .5;
+  }
+}
+body{
+  text-align: center!important;
 }
