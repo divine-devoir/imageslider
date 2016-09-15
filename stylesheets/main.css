@@ -1,21 +1,24 @@
 .slideshow {
-  height: 300px; }
+  height: 600px; }
   .slideshow img {
     display: none;
     position: absolute;
-    top: 50px;
-    left: 44%;
-    border: 5px solid black; }
+    top: 150px;
+    left: 30%;
+    border: 8px solid grey; }
 
 .slideshow-buttons button {
+  position: relative;
   padding: 15px 32px;
   font-family: 'Gloria Hallelujah', cursive;
   border-radius: 25px;
-  margin: 20px; }
+  margin-right: 100px;
+  margin-top: 100px; }
 .slideshow-buttons button:hover {
   opacity: .5; }
 
 body {
-  text-align: center !important; }
+  text-align: center !important;
+  background-color: #ffddcc; }
 
 /*# sourceMappingURL=main.css.map */
